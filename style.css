@@ -1,0 +1,108 @@
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body + Container Setup */
+body {
+  font-family: "Comic Sans MS", "Arial", sans-serif; /* a playful fallback; replace with a custom font if you prefer */
+  background: linear-gradient(135deg, #ffefd5 0%, #ffe4e1 100%); 
+  /* Light pastel gradient (peach to pink) for a fun vibe */
+  color: #333;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto; /* centers content */
+  border: 5px solid #fbdc5b; /* Yellow Build-A-Bear-themed border around the page */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ff4f92; /* bright pink */
+  text-shadow: 2px 2px #ffe4e1;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Main Content */
+main section {
+  margin-bottom: 25px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 3px dashed #fbdc5b; /* playful dashed border */
+  border-radius: 10px;
+  padding: 15px;
+}
+
+main section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0046ad; /* cheerful, bright blue */
+  text-shadow: 1px 1px #ffefd5;
+}
+
+main section p {
+  margin-bottom: 10px;
+}
+
+/* Links & Lists */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  color: #ff4f92;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #0046ad;
+  text-decoration: underline;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.gallery img {
+  border: 4px solid #ff4f92;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.75rem; /* smaller than before */
+  color: #999;
+  margin-top: 30px;
+  background: #ff4f92;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
