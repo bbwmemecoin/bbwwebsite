@@ -106,3 +106,13 @@ footer {
   border-radius: 10px;
 }
 
+.big-image {
+  display: block;            /* so it sits on its own line */
+  margin: 20px auto;         /* center horizontally with space above/below */
+  max-width: 80%;            /* limit to 80% of the page width */
+  height: auto;              /* maintain aspect ratio */
+  border: 5px double #fbdc5b;/* playful double border in Build-A-Bear style */
+  border-radius: 10px;       /* slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* soft shadow for extra pop */
+}
+
